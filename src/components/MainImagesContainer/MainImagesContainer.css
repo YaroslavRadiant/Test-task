@@ -1,0 +1,25 @@
+.main_images_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.main_images_container__images {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 900px) {
+  .main_images_container__images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    padding-bottom: 40px;
+  }
+}
